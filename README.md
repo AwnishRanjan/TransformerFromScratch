@@ -2,6 +2,8 @@
 
 This repository contains an implementation of a Transformer-based NLP model for sequence-to-sequence tasks such as machine translation.
 
+# Open issues : train it in Virual Gpus for more epoches , I tried but my device is not capable to train it more :) 
+
 ## Features
 - Tokenization using Hugging Face `tokenizers`
 - Custom Transformer model implementation
