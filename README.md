@@ -49,24 +49,5 @@ If you encounter an out-of-memory error on MPS, try running on CPU:
 export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
 python train.py --device cpu
 ```
-
-## Git Branch Commands
-- Create a new branch:
-  ```sh
-  git branch <branch-name>
-  ```
-- Switch to a branch:
-  ```sh
-  git checkout <branch-name>
-  ```
-- List all branches:
-  ```sh
-  git branch
-  ```
-- Delete a branch:
-  ```sh
-  git branch -d <branch-name>
-  ```
-
 ## License
 This project is licensed under the MIT License.
